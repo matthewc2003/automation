@@ -1,11 +1,12 @@
 #!/bin/bash
 #Copyright 2021, Matthew Chung, All rights reserved.
 
-# generates the first nine directories
-for (( counter=1; counter<10; counter++ ))
+# generates the 20 directories
+
+for i in {01..20}
 do
-mkdir matthew_0${counter}
+mkdir matthew_${i}
+
 done
 # generates the last one
-mkdir matthew_10
 printf "done"
